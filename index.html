@@ -7,6 +7,7 @@
     <title>Kadea online</title>
     <link rel="stylesheet" href="dist/style/stylesheet.css">
     <link rel="stylesheet" href="dist/style/index.css">
+    <link rel="icon" href="dist/images/favicon.ico" type="image/png">
 </head>
 
 <body>
@@ -165,14 +166,14 @@
                 </h2>
             </div>
             <div class="contact-form">
-                <form>
+                <form method="get">
                     <div class="input-contact">
                         <div>
                             <div>
                                 <label for="nom">Votre nom</label>
                             </div>
                             <div>
-                                <input type="text" name="nom" id="nom">
+                                <input type="text" name="nom" id="nom" required>
                             </div>
                         </div>
                         <div>
@@ -180,7 +181,7 @@
                                 <label for="email">Votre email</label>
                             </div>
                             <div>
-                                <input type="email" name="email" id="email">
+                                <input type="email" name="email" id="email" required>
                             </div>
                         </div>
                     </div>
@@ -189,11 +190,11 @@
                             <label for="message">Votre message</label>
                         </div>
                         <div>
-                            <textarea name="message" id="message"></textarea>
+                            <textarea name="message" id="message" required></textarea>
                         </div>
                     </div>
                     <div class="contact-btn">
-                        <button class="contact-btn-btn">Envoyez votre message</button>
+                        <button class="contact-btn-btn" type="submit">Envoyez votre message</button>
                     </div>
                 </form>
             </div>
