@@ -73,4 +73,45 @@
         margin-left: 25px;
       }
       /* fin style section apprentisage */
+      /* Responsive section */
+      @media screen and (max-width: 996px) {
+        /* style competances */
+        .competances-section{
+          flex-direction: column;
+          align-items: center;
+          margin-top: 40px;  
+          height: auto;
+        }
+        .competances-img{
+          margin-left: 0px;
+          margin-top: 20px;
+        }
+        .competances-content {
+          margin-top: 20px;
+          text-align: center;
+        }
+        .competances-content h2{
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 2em;
+        }
+        .competances-content p{
+          font-size: 1em;
+          margin-bottom: 40px;
+        }
+        /* fin style competances */
+
+        /* style commencez à coder section */
+        .apprentissage-cotent{
+          flex-direction: column;
+          align-items: center;
+          height: auto;
+        }
+        .apprentissage-link{
+          margin-left: 190px;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        
+      }
   
