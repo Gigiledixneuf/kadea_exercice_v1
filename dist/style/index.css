@@ -7,7 +7,7 @@ section{
     flex-direction: row;
   }
   .hero-content{
-    margin: 75px;
+    margin: 50px;
     margin-bottom: 125px;
   }
    .hero-title{
@@ -15,12 +15,15 @@ section{
     margin-bottom: 30px;
     margin-top: 70px;
     color: #3E3D3D;
+    padding-left: 40px;
   }
   .hero-content .hero-text{
     margin-bottom: 90px;
+    padding-left: 40px;
   }
    .hero-img{
     margin-top: 130px;
+    margin-right: 20px;
     transition: opacity 0.30s;
   }
   .hero-img:hover{
@@ -29,6 +32,7 @@ section{
   .btn_hero{
     border: none;
     background-color: #D92950;
+    margin-left: 40px;
     color: white;
     border-width: 1px;
     border-color: #D92950;
@@ -209,6 +213,7 @@ section{
     margin-top: 10px;
     width: 450px;
     height: 40px;
+    padding: 20px 10px;
    }
    .message-contact label{
     color: #3E3D3D;
@@ -251,3 +256,165 @@ section{
     background-color: #D92950;
    }
   /* fin style contact section */
+
+  /* Responsive */
+  @media screen and (max-width: 996px) {
+
+    /* style hero */
+    .hero-section{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .hero-title{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+      width: 800px;
+
+    }
+    .hero-text{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+    .hero-btn{
+      text-align: center;
+      margin-top: 10px;
+    }
+    .btn_hero{
+      text-align: center;
+      width: 300px;
+    }
+    .hero-img{
+      margin-top: 5px;
+      text-align: center;
+      padding-right: 20px;
+    }
+    /* fin style hero */
+
+    /* style option */
+   .option-content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+   }
+   .option-card{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
+    width: 300px;
+   }
+    /* fin style option */
+
+    /* style commencez à coder section */
+    .commence_coder-section{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
+    .coder-img{
+      margin-top: 10px;
+      text-align: center;
+      margin-right: 90px;
+    }
+    .coder-content{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+      width: 800px;
+    }
+    .coder-content h2{
+      margin-top: 10px;
+    }
+    .coder-content p{
+      font-size: 0.5em;
+    }
+    .coder-content .coder-btn{
+      text-align: center;
+      margin-bottom: 40px;
+      width: 300px;
+    }
+    /* fin style commencez à coder section */
+
+    /* style apprentissage section */
+    .apprentissage-section{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+    }
+    .apprentissage-title{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+    }
+    .apprentissage-cotent{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      height: auto;
+    }
+    .apprentissage-card{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      height: auto;
+      width: 300px;
+    }
+    .apprentissage-text{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+    .apprentissage-link{
+      text-align: center;
+      margin-right: 60px;
+      margin-top: 10px;
+    }
+    /* fin style apprentissage section */
+
+    /* style contact section */
+    .contact-section{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      padding: 50px 20px;
+    }
+    .contact-title{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+    }
+    .contact-form{
+      text-align: center;
+      flex-direction: row;
+      margin-top: 20px;
+      font-size: 1.5em;
+    }
+    .input-contact{
+     flex-direction: column;
+     gap: 0;
+    }
+    .message-contact{
+      flex-direction: column;
+      gap: 0;
+    }
+    .message-contact .message-area{
+      width: 600px;
+    }
+    .contact-btn{
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  
+   
+    /* fin style contact section */
+  
+   
+  }
